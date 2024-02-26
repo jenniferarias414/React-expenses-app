@@ -1,7 +1,9 @@
 //'root' component, top of the component tree
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
+import React, {Routes, Route} from 'react';
 import NewExpense from './components/NewExpense/NewExpense';
-import Expenses from './components/Expenses/Expenses'
+import Expenses from './components/Expenses/Expenses';
+// import {Outlet} from 'react-router-dom';
 
 const DUMMY_EXPENSES = [
     {
